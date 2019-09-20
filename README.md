@@ -42,13 +42,13 @@
 
 # Assignments
 
-Assignment Number | Details | File | Due Date |
------------- | ------------- | -------------  | -------------  |
-Assignment 1 | Project Plan and Website | Proposal| September 26, 2019 |
-Assignment 2 | Requirements, Design Document, Quality Assurance | - | October 16, 2019 |
-Assignment 3 | Version 1 Release + Presentation | - | November 4, 2019 |
-Assignment 4 | Version 2 Release | - | November 18, 2019 |
-Assignment 5 | Version 3 + Final Presentation | - | December 2, 2019 |
+Assignment Number | Details | Task List | Submission File | Due Date |
+------------ | ------------- | -------------  | -------------  | ------ |
+Assignment 1 | Project Plan and Website | [Task List](https://kevbot.github.io/cmpt275_fa2019_team8/assignment1tasks)| Proposal | September 26, 2019 |
+Assignment 2 | Requirements, Design Document, Quality Assurance | - | - | October 16, 2019 |
+Assignment 3 | Version 1 Release + Presentation | - | - | November 4, 2019 |
+Assignment 4 | Version 2 Release |  - | - | November 18, 2019 |
+Assignment 5 | Version 3 + Final Presentation | - | - | December 2, 2019 |
 
 # Team Meeting Schedule
 
