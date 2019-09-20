@@ -1,8 +1,8 @@
-# CMPT 275 - Fall 2019 - Team 8 Application Page
+# CMPT 275 - Fall 2019 - Application Page
 
-**Group Number: 8**
+## Group Number: 8
 
-**Team Name: The Great Eight**
+## Team Name: The Great Eight
 
 # Table of Contents  
 
