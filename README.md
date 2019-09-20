@@ -1,7 +1,4 @@
 # CMPT 275 - Fall 2019 - Team 8 Application Page
-Repository for Team 8 of Software Engineering (CMPT 275) at Simon Fraser University
-
-**Semester: Fall 2019 (September - December)**
 
 **Group Number: 8**
 
