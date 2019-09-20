@@ -9,11 +9,11 @@ Repository for Team 8 of Software Engineering (CMPT 275) at Simon Fraser Univers
 
 # Table of Contents  
 
-* [Team Members](https://github.com/Kevbot/cmpt275_fa2019_team8##team-members)
+* [Team Members](https://kevbot.github.io/cmpt275_fa2019_team8/#team-members)
 
-* [Assignments](https://github.com/Kevbot/cmpt275_fa2019_team8#assignments)
+* [Assignments](https://kevbot.github.io/cmpt275_fa2019_team8/#assignments)
 
-* [Team Meeting Schedule](https://github.com/Kevbot/cmpt275_fa2019_team8#team-meeting-schedule)
+* [Team Meeting Schedule](https://kevbot.github.io/cmpt275_fa2019_team8/#team-meeting-schedule)
 
 
 
