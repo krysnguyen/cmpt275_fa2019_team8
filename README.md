@@ -39,7 +39,7 @@ Repository for Team 8 of Software Engineering (CMPT 275) at Simon Fraser Univers
 
 > Bio:
 
-* __Payam Partow__: @sfu.ca - __Role:__
+* __Payam Partow__: payam_partow@sfu.ca - __Role:__
 
 > Bio:
 
