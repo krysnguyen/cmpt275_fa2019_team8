@@ -16,35 +16,22 @@
 
 ## Team Members:
 
-* __Kevin Jerome__: kjerome@sfu.ca - __Role:__
+|Name | Email | Role | Bio |
+| :--- | --- | --- | --- |
+| Kevin Jerome | kjerome@sfu.ca | | Kevin is a fourth year computer engineering student. After two co-ops with a global manufacturer of surveillance software and hardware, he has taken an interest in the field of security. He has experience with both software (C++, PowerShell, Python) as well as hardware and is looking for new opportunities that tackle problems from a systems engineering perspective. |
+| Joseph DIllman |jdillman@sfu.ca | | Joseph is beginning his fourth year as a computer engineering student and is interested in pursuing a software engineering related career. In two previous co-ops, one with the government and another at a local startup, Joseph held positions involving data science with Python and full stack Javascript software development. He is currently searching for new opportunities, specifically in back-end development. |
+| Hoang Bao Ngan Nguyen | hbn2@sfu.ca | | |
+| Wei Da (David) Song | wdsong@sfu.ca | | |
+| HuyThong Bui | htbui@sfu.ca | | |
+| Payam Partow| payam_partow@sfu.ca | | |
 
-> Bio:
 
-* __Joseph DIllman__: jdillman@sfu.ca - __Role:__
-
-> Bio:
-
-* __Hoang Bao Ngan Nguyen__: hbn2@sfu.ca - __Role:__
-
-> Bio:
-
-* __Wei Da (David) Song__: wdsong@sfu.ca - __Role:__
-
-> Bio:
-
-* __HuyThong Bui__: htbui@sfu.ca - __Role:__
-
-> Bio:
-
-* __Payam Partow__: payam_partow@sfu.ca - __Role:__
-
-> Bio:
 
 # Assignments
 
 Assignment Number | Details | Task List | Submission File | Due Date |
 ------------ | ------------- | -------------  | -------------  | ------ |
-Assignment 1 | Project Plan and Website | [Task List](https://kevbot.github.io/cmpt275_fa2019_team8/assignment1tasks)| Proposal | September 26, 2019 |
+Assignment 1 | Project Plan and Website | [Assignment 1 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment1tasks)| Proposal | September 26, 2019 |
 Assignment 2 | Requirements, Design Document, Quality Assurance | - | - | October 16, 2019 |
 Assignment 3 | Version 1 Release + Presentation | - | - | November 4, 2019 |
 Assignment 4 | Version 2 Release |  - | - | November 18, 2019 |
