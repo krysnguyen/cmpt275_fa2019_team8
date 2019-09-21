@@ -25,7 +25,7 @@
 | Kevin Jerome | kjerome@sfu.ca | | Kevin is a fourth year computer engineering student. After two co-ops with a global manufacturer of surveillance software and hardware, he has taken an interest in the field of security. He has experience with both software (C++, PowerShell, Python) as well as hardware and is looking for new opportunities that tackle problems from a systems engineering perspective. |
 | Joseph DIllman |jdillman@sfu.ca | | Joseph is beginning his fourth year as a computer engineering student and is interested in pursuing a software engineering related career. In two previous co-ops, one with the government and another at a local startup, Joseph held positions involving data science with Python and full stack Javascript software development. He is currently searching for new opportunities, specifically in back-end development. |
 | Hoang Bao Ngan Nguyen | hbn2@sfu.ca | | |
-| Wei Da (David) Song | wdsong@sfu.ca | | |
+| Wei Da (David) Song | wdsong@sfu.ca | | David is a SFU computer engineering student in his fourth year of study. With past co-op experience as a software test engineer, David has been involved in working closely with software and hardware developers to validate and develop smart home devices. He has also worked to create automation scripts for use in an automated testing suite. David hopes to work on firmware development and automated systems in the future using his knowledge in Python and C++. |
 | HuyThong Bui | htbui@sfu.ca | | |
 | Payam Partow| payam_partow@sfu.ca | | |
 
