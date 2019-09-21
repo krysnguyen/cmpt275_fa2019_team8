@@ -14,7 +14,7 @@
 
 * [Team Meeting Schedule](https://kevbot.github.io/cmpt275_fa2019_team8/#team-meeting-schedule)
 
-* [Important Course Dates](https://kevbot.github.io/cmpt275_fa2019_team8/#important-course-dates)
+* [Important Semester Dates](https://kevbot.github.io/cmpt275_fa2019_team8/#important-semester-dates)
 
 
 ## Team Members:
