@@ -1,6 +1,3 @@
----
-title: Assignment 1 Page
----
 
 [Back to home page](https://kevbot.github.io/cmpt275_fa2019_team8/)
 
