@@ -52,7 +52,7 @@ Assignment | Details | Tasks | Submission | Due Date |
 
 Meeting | Time | Date | Location | Topics | Minutes | Absentees |
 :------------: | ------------- |  ------------- |------------- | ------------- | -------------  | -------------  |
- 1 | 10:30am-12:20pm | Sept 19 | SFU Library | Idea brainstorming, communication logistics, A1 tasks | [Link to meeting minutes](https://drive.google.com/open?id=1yLuGmf8TSlW3ARCmibaVEn1uomV0mLQ9)| Payam Partow |
+ 1 | 10:30am-12:20pm | Sept 19 | SFU Library | Idea brainstorming, communication logistics, A1 tasks | [Link to meeting minutes](https://docs.google.com/document/d/1gH3NLiod9X1nGWhHELLHTky9F33fyV7TY5vbuYrJAQA/edit?usp=sharing)| Payam Partow |
  2 | 10:30am-12:20pm | Sept 24 | SFU Library | | - | - |
 
 ## Important Semester Dates
