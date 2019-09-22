@@ -1,0 +1,10 @@
+docs:
+  - title: Getting Started
+    children:
+      - title: "Home"
+        url: /docs/quick-start-guide/
+      - title: "Assignments"
+        url: /docs/structure/
+      - title: "Repository"
+        url: /docs/installation/
+  
