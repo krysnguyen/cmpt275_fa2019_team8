@@ -46,7 +46,7 @@ Assignment | Details | Tasks | Submission | Due Date |
  2 | Requirements, Design Document, QA | [Assignment 2 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment2tasks) | - | Oct 16 |
  3 | Version 1 Release + Presentation | [Assignment 3 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment3tasks) | - | Nov 4 |
  4 | Version 2 Release |  [Assignment 4 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment4tasks) | - | Nov 18 |
- 5 | Version 3 + Final Presentation | [Assignment 5 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment5tasks)- | - | Dec 2 |
+ 5 | Version 3 + Final Presentation | [Assignment 5 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment5tasks) | - | Dec 2 |
 
 ## Team Meeting Schedule
 
@@ -59,16 +59,16 @@ Meeting | Time | Date | Location | Topics | Minutes | Absentees |
 
 Activity | Time | Date | Location
 --- | --- | --- | --- |
-Assignment 1 Due | 11:59 pm | Sept 25 | Canvas |
+Assignment 1 Due | 11:55pm | Sept 25 | Canvas |
 Thanksgiving - class cancelled | All day | Oct 14 | n/a |
-Assignment 2 Due | 11:59pm | Oct 16 | Canvas |
+Assignment 2 Due | 11:55pm | Oct 16 | Canvas |
 Midterm | 5:30pm - 8:30pm | Oct 21 | AQ 3005 |
 Assignment 3 Presentation | 8:30pm | Nov 4 | AQ 3005 |
-Assignment 3 Due | 11:59pm | Nov 4 | Canvas |
+Assignment 3 Due | 11:55pm | Nov 4 | Canvas |
 Rememberance Day - class cancelled | All day | Nov 11| n/a |
-Assignment 4 Due | 11:59pm | Nov 18 | Canvas |
+Assignment 4 Due | 11:55pm | Nov 18 | Canvas |
 Project Presentation | 5:30pm - 8:30 pm | Dec 2 | AQ 3005 |
-Assignment 5 Due | 11:59pm | Dec 2| Canvas |
+Assignment 5 Due | 11:55pm | Dec 2| Canvas |
 Final Exam | 7:00pm - 9:00pm | Dec 9 | TBA |
 
 
