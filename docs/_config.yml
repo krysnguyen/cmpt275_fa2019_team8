@@ -1,7 +1,6 @@
 theme: jekyll-theme-cayman
 title: Parkinson's Project Website for CMPT 275
 description: Created by students at Simon Fraser University
-sidebar:
-  nav: "docs"
+baseurl: /cmpt275_fa2019_team8
 
 
