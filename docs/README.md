@@ -53,7 +53,7 @@ Assignment | Details | Tasks | Submission | Due Date |
 Meeting | Time | Date | Location | Topics | Minutes | Absentees |
 :------------: | ------------- |  ------------- |------------- | ------------- | -------------  | -------------  |
  1 | 10:30am-12:20pm | Sept 19 | SFU Library | Idea brainstorming, communication logistics, A1 tasks | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%201.pdf)| Payam Partow |
- 2 | 10:30am-12:20pm | Sept 24 | SFU Library | Budgets, features, architecture | [Link to meeting mintes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%202%20-%20Tuesday%2C%20Sept.%2024.pdf) | Joseph Dillman |
+ 2 | 10:30am-12:20pm | Sept 24 | SFU Library | Budgets, features, architecture | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%202%20-%20Tuesday%2C%20Sept.%2024.pdf) | Joseph Dillman |
 
 ## Important Semester Dates
 
