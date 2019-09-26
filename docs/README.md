@@ -42,7 +42,7 @@ A link to the code in our repository can be found [here](https://github.com/Kevb
 
 Assignment | Details | Tasks | Submission | Due Date |
 :------------: | ------------- | -------------  | -------------  | ------ |
- 1 | Project Plan and Website | [Assignment 1 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment1tasks)| Proposal | Sept 26 |
+ 1 | Project Plan and Website | [Assignment 1 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment1tasks)| [Proposal](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/submitted_files/Group-08-ProjectPlan.pdf) | Sept 26 |
  2 | Requirements, Design Document, QA | [Assignment 2 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment2tasks) | - | Oct 16 |
  3 | Version 1 Release + Presentation | [Assignment 3 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment3tasks) | - | Nov 4 |
  4 | Version 2 Release |  [Assignment 4 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment4tasks) | - | Nov 18 |
