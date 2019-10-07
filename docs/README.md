@@ -54,6 +54,8 @@ Meeting | Time | Date | Location | Topics | Minutes | Absentees |
 :------------: | ------------- |  ------------- |------------- | ------------- | -------------  | -------------  |
  1 | 10:30am-12:20pm | Sept 19 | SFU Library | Idea brainstorming, communication logistics, A1 tasks | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%201.pdf)| Payam Partow |
  2 | 10:30am-12:20pm | Sept 24 | SFU Library | Budgets, features, architecture | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%202%20-%20Tuesday%2C%20Sept.%2024.pdf) | Joseph Dillman |
+ 3 | 10:30am-12:20pm | Sept 24 | SFU Library | Requirements document - Intro, audience, requirements | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%203%20-%20Tuesday%2C%20Oct.%201.pdf) | David Song, Payam Partow |
+ 4 | 10:30am-12:20pm | Sept 24 | SFU Library | Requirements document - Glossary, use cases | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%204%20-%20Thursday%2C%20Oct.%203.pdf) | Joseph Dillman |
 
 ## Important Semester Dates
 
