@@ -43,7 +43,7 @@ A link to the code in our repository can be found [here](https://github.com/Kevb
 Assignment | Details | Tasks | Submission | Due Date |
 :------------: | ------------- | -------------  | -------------  | ------ |
  1 | Project Plan and Website | [Assignment 1 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment1tasks)| [Proposal](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/submitted_files/Group-08-ProjectPlan.pdf) | Sept 26 |
- 2 | Requirements, Design Document, QA | [Assignment 2 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment2tasks) | - | Oct 16 |
+ 2 | Requirements, Design Document, QA | [Assignment 2 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment2tasks) | [Requirements Document](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/submitted_files/Group-08-Requirements.pdf), [Design Document](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/submitted_files/Group-08-Design.pdf), [QA Document](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/submitted_files/Group-08-ProjectPlan.pdf)| Oct 16 |
  3 | Version 1 Release + Presentation | [Assignment 3 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment3tasks) | - | Nov 4 |
  4 | Version 2 Release |  [Assignment 4 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment4tasks) | - | Nov 18 |
  5 | Version 3 + Final Presentation | [Assignment 5 Tasks](https://kevbot.github.io/cmpt275_fa2019_team8/assignment5tasks) | - | Dec 2 |
@@ -56,6 +56,9 @@ Meeting | Time | Date | Location | Topics | Minutes | Absentees |
  2 | 10:30am-12:20pm | Sept 24 | SFU Library | Budgets, features, architecture | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%202%20-%20Tuesday%2C%20Sept.%2024.pdf) | Joseph Dillman |
  3 | 10:30am-12:20pm | Oct 1 | SFU Library | Requirements document - Intro, audience, requirements | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%203%20-%20Tuesday%2C%20Oct%201.pdf) | David Song, Payam Partow |
  4 | 10:30am-12:20pm | Oct 3 | SFU Library | Requirements document - Glossary, use cases | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%204%20-%20Thursday%2C%20Oct%203.pdf) | Joseph Dillman |
+ 5 | 10:30am-12:20pm | Oct 8 | SFU Library | Design document | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%205%20-%20Tuesday%2C%20Oct%208.pdf) | Payam Partow |
+ 6 | 10:30am-12:20pm | Oct 10 | SFU Library | QA document | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%206%20-%20Thursday%2C%20Oct%2010.pdf) | Kevin Jerome |
+ 7 | 10:30am-12:20pm | Oct 14 | SFU Library | Review HW2 submission documents | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%207%20-%20Tuesday%2C%20Oct%2014.pdf) | - |
 
 ## Important Semester Dates
 
@@ -64,7 +67,7 @@ Activity | Time | Date | Location
 Assignment 1 Due | 11:55pm | Sept 25 | Canvas |
 Thanksgiving - class cancelled | All day | Oct 14 | n/a |
 Assignment 2 Due | 11:55pm | Oct 16 | Canvas |
-Midterm | 5:30pm - 8:30pm | Oct 21 | AQ 3005 |
+Midterm | 5:30pm - 7:00pm | Oct 21 | AQ 3005 |
 Assignment 3 Presentation | 8:30pm | Nov 4 | AQ 3005 |
 Assignment 3 Due | 11:55pm | Nov 4 | Canvas |
 Rememberance Day - class cancelled | All day | Nov 11| n/a |
