@@ -59,8 +59,8 @@ Meeting | Time | Date | Location | Topics | Minutes | Absentees |
  5 | 10:30am-12:20pm | Oct 8 | SFU Library | Design document | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%205%20-%20Tuesday%2C%20Oct%208.pdf) | Payam Partow |
  6 | 10:30am-12:20pm | Oct 10 | SFU Library | QA document | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%206%20-%20Thursday%2C%20Oct%2010.pdf) | Kevin Jerome |
  7 | 10:30am-12:20pm | Oct 14 | SFU Library | Review HW2 submission documents | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%207%20-%20Tuesday%2C%20Oct%2014.pdf) | - |
- 8 | 10:30am-12:20pm | Oct 22 | SFU Library | A3 | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%207%20-%20Tuesday%2C%20Oct%2022.pdf) | - |
- 9 | 10:30am-12:20pm | Oct 24 | SFU Library | A3 | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%207%20-%20THURSDAY%2C%20Oct%2024.pdf) | - |
+ 8 | 10:30am-12:20pm | Oct 22 | SFU Library | A3 | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%208%20-%20Tuesday%2C%20Oct%2022.pdf) | - |
+ 9 | 10:30am-12:20pm | Oct 24 | SFU Library | A3 | [Link to meeting minutes](https://github.com/Kevbot/cmpt275_fa2019_team8/blob/master/meeting_minutes/Meeting%20Minutes%209%20-%20THURSDAY%2C%20Oct%2024.pdf) | - |
 
 ## Important Semester Dates
 
