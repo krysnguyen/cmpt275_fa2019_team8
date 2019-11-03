@@ -66,17 +66,17 @@ Meeting | Time | Date | Location | Topics | Minutes | Absentees |
 
 Activity | Time | Date | Location
 --- | --- | --- | --- |
-Assignment 1 Due | 11:55pm | Sept 25 | Canvas |
-Thanksgiving - class cancelled | All day | Oct 14 | n/a |
-Assignment 2 Due | 11:55pm | Oct 16 | Canvas |
-Midterm | 5:30pm - 7:00pm | Oct 21 | AQ 3005 |
+<strike>Assignment 1 Due</strike> | 11:55pm | Sept 25 | Canvas |
+<strike>Thanksgiving - class cancelled</strike> | All day | Oct 14 | n/a |
+<strike>Assignment 2 Due</strike> | 11:55pm | Oct 16 | Canvas |
+<strike>Midterm</strike> | 5:30pm - 7:00pm | Oct 21 | AQ 3005 |
 Assignment 3 Presentation | 8:30pm | Nov 4 | AQ 3005 |
 Assignment 3 Due | 11:55pm | Nov 4 | Canvas |
 Rememberance Day - class cancelled | All day | Nov 11| n/a |
 Assignment 4 Due | 11:55pm | Nov 18 | Canvas |
 Project Presentation | 5:30pm - 8:30 pm | Dec 2 | AQ 3005 |
 Assignment 5 Due | 11:55pm | Dec 2| Canvas |
-Final Exam | 7:00pm - 9:00pm | Dec 9 | TBA |
+Final Exam | 7:00pm - 9:00pm | Dec 9 | SSCC 9002 |
 
 
 
