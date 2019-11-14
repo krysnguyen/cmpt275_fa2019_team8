@@ -2,10 +2,10 @@
 //  SignUpViewController.swift
 //  Remedi
 //
-//Team 8
-//Programmers: Huy Thong, Krystal Nguyen
-//UI designers: Payam Partow, David Song
+//  Created by Ngan Nguyen on 2019-10-28.
+//  Copyright © 2019 Krystal Nguyen. All rights reserved.
 //
+//Programmers: Ngan Nguyen, David Song, Payam Partow, HuyThong Bui
 
 import UIKit
 import Firebase
@@ -15,7 +15,8 @@ class SignUpViewController: UIViewController {
 
 //    @IBOutlet weak var firstNameTextField: UITextField!
 //    @IBOutlet weak var lastNameTextField: UITextField!
-    //Connect text fields with main storyboard
+    
+    //Connect text field with main storyboard
     @IBOutlet weak var healthCareTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -56,9 +57,7 @@ class SignUpViewController: UIViewController {
         }
         return nil
     }
-    //Signup button, check if there is a profile existing in the Firebase by being added by the physicians
-    //If there is patients' profile exists, allows patients to create account
-    //If not ask the patient to get prescribed by the physican before creating account
+    // Function for sign up
     @IBAction func signUpTapped(_ sender: Any) {
         //Validate the fields
         let error = validateFields()
@@ -97,7 +96,6 @@ class SignUpViewController: UIViewController {
 //                    print("error")
 //                }
 //            }
-            
             let db = Firestore.firestore()
             let docRef = db.collection("users").document(email)
             docRef.getDocument { (document, error) in
@@ -129,8 +127,7 @@ class SignUpViewController: UIViewController {
         view.window?.makeKeyAndVisible()
         
     }
-    //Check if there is healthNumber exist, we leave it here for now and instead use the email of the patients.
-    //Will consider in future which one is more secured
+    // Function to check if user exist already or not, if not return "Error"
     func checkUsername(field: String, completion: @escaping (Bool) -> Void) {
         let db = Firestore.firestore()
         let collectionRef = db.collection("users")

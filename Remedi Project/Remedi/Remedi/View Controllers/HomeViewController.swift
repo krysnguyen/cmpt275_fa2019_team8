@@ -2,10 +2,10 @@
 //  HomeViewController.swift
 //  Remedi
 //
-//Team 8
-//Programmers: Huy Thong, Krystal Nguyen
-//UI designers: Payam Partow, David Song
-
+//  Created by Ngan Nguyen on 2019-10-28.
+//  Copyright © 2019 Krystal Nguyen. All rights reserved.
+//
+//Programmers: Ngan Nguyen, David Song, Payam Partow, HuyThong Bui
 import UIKit
 
 class HomeViewController: UIViewController {

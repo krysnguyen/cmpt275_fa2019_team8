@@ -1,10 +1,15 @@
 //
 //  Utilities.swift
-//This class using to modify the buttons background
+//  customauth
+//
+//  Created by Christopher Ching on 2019-05-09.
+//  Copyright © 2019 Christopher Ching. All rights reserved.
+//
 
 import Foundation
 import UIKit
 
+//This Class using to modify the background of interfaces
 class Utilities {
     
     static func styleTextField(_ textfield:UITextField) {
@@ -41,8 +46,7 @@ class Utilities {
         button.layer.cornerRadius = 25.0
         button.tintColor = UIColor.black
     }
-    //Check if the password is valid or not
-    //Check if it contains all the numbers, letters and special characters
+    
     static func isPasswordValid(_ password : String) -> Bool {
         
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}")

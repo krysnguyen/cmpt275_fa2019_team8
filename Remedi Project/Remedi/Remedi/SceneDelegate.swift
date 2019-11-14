@@ -5,8 +5,11 @@
 //  Created by Ngan Nguyen on 2019-10-28.
 //  Copyright © 2019 Krystal Nguyen. All rights reserved.
 //
+//Programmers: Ngan Nguyen, David Song, Payam Partow, HuyThong Bui
 
 import UIKit
+
+// This class using to control the UI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

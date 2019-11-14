@@ -1,13 +1,16 @@
 //
 //  ProfileViewController.swift
 //  Remedi
-//Team 8
-//Programmers: Huy Thong, Krystal Nguyen
-//UI designers: Payam Partow, David Song
+//
+//  Created by Ngan Nguyen on 2019-11-02.
+//  Copyright © 2019 Krystal Nguyen. All rights reserved.
+//
+//Programmers: Ngan Nguyen, David Song, Payam Partow, HuyThong Bui
 
 import UIKit
 import FirebaseFirestore
 import FirebaseAuth
+
 //Class to control the main storyboard, it will connect with Firebase for retrieving data
 class ProfileViewController: UIViewController {
     var firestore: Firestore!
@@ -20,10 +23,7 @@ class ProfileViewController: UIViewController {
     var physLastName = ""
     var physEmail = ""
     
-    //These varibales using to connect the Profie storyboard with Controller
-    @IBAction func logOutButton(_ sender: Any) {
-    }
-    @IBOutlet weak var backButton: UIButton!
+    //These varialbes using to connect the Profile storyboard with Controller
     @IBOutlet weak var patientnameLabel: UILabel!
     @IBOutlet weak var patientMednumLabel: UILabel!
     @IBOutlet weak var patientPhoneLabel: UILabel!
@@ -34,7 +34,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var physEmailLabel: UILabel!
     @IBOutlet weak var physHomeAddLabel: UILabel!
     
-    //Read data from Firestore in order to show profile for patients
+    //Function using to retrieve information from Firebase
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -61,7 +61,8 @@ class ProfileViewController: UIViewController {
     func patientName() {
         patientnameLabel.text = firstName +  " " + lastName
     }
-    //Display information of the physicians
+
+    // Function to display information of physician
     func physInfor(){
         let db = Firestore.firestore()
         let collectionRef = db.collection("doctor")
