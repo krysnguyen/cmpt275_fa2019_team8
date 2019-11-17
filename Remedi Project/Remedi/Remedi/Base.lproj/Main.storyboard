@@ -282,93 +282,80 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AK-mG-uzA">
-                                <rect key="frame" x="233" y="580" width="155" height="151"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu" translatesAutoresizingMaskIntoConstraints="NO" id="f0m-l1-Q0n">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="settings"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AK-mG-uzA">
+                                <rect key="frame" x="215" y="611" width="182" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="0Pb-yS-2Ni"/>
+                                    <constraint firstAttribute="height" constant="155" id="82f-Vt-qpK"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Settings Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqK-bm-qkW" customClass="Profile" customModule="Remedi">
-                                <rect key="frame" x="51" y="181" width="155" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Profile" image="077-512"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqK-bm-qkW" customClass="Profile" customModule="Remedi">
+                                <rect key="frame" x="17" y="267" width="182" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="n89-Vi-Jfb"/>
+                                    <constraint firstAttribute="height" constant="155" id="pgc-bD-qNw"/>
+                                </constraints>
+                                <state key="normal" title="Profile" image="Profile Button"/>
                                 <connections>
                                     <segue destination="fv2-qR-jD8" kind="show" id="dl5-ts-fAE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXG-Y9-Vdr">
-                                <rect key="frame" x="233" y="381" width="155" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="pills-1"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gg-x5-xX3">
+                                <rect key="frame" x="215" y="267" width="182" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="7lO-dp-CgY"/>
+                                    <constraint firstAttribute="height" constant="155" id="NGZ-yZ-nvw"/>
+                                </constraints>
+                                <state key="normal" title="Schedule" image="Schedule Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gg-x5-xX3">
-                                <rect key="frame" x="233" y="181" width="155" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Schedule" image="45-512"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEK-SG-xDt">
+                                <rect key="frame" x="17" y="611" width="182" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="jv2-Ik-M9i"/>
+                                    <constraint firstAttribute="height" constant="155" id="wvG-Sx-6bf"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Statistics Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEK-SG-xDt">
-                                <rect key="frame" x="51" y="580" width="155" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="analytics (2)"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROFILE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fT-ZM-dwb">
-                                <rect key="frame" x="76" y="329" width="105" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtQ-wj-2g9">
-                                <rect key="frame" x="51" y="382" width="155" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bicycle"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtQ-wj-2g9">
+                                <rect key="frame" x="17" y="439" width="182" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="16f-BL-kM9"/>
+                                    <constraint firstAttribute="height" constant="155" id="6lq-3g-7PB"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Exercises Button"/>
                                 <connections>
                                     <segue destination="zCt-pb-Bxv" kind="show" id="yDn-D6-AA4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5L-PC-qYA">
-                                <rect key="frame" x="289" y="335" width="0.0" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCHEDULE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGa-gA-Z4h">
-                                <rect key="frame" x="271" y="335" width="88" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MEDICATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozG-wB-lMV">
-                                <rect key="frame" x="275" y="540" width="101" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STATISTICS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kw4-d9-KOI">
-                                <rect key="frame" x="78" y="735" width="91" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SETTINGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwz-yo-XRn">
-                                <rect key="frame" x="275" y="735" width="81" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EXERCISE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXr-5Z-KZD">
-                                <rect key="frame" x="91" y="541" width="78" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXG-Y9-Vdr">
+                                <rect key="frame" x="215" y="439" width="182" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="Jnt-D9-TkK"/>
+                                    <constraint firstAttribute="width" constant="182" id="xXP-Y8-cpb"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Medication Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.46628457307815552" green="0.61345243453979492" blue="0.9070393443107605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9gg-x5-xX3" firstAttribute="top" secondItem="kzX-kB-7rg" secondAttribute="top" constant="223" id="8oA-1r-Gk1"/>
+                            <constraint firstItem="JtQ-wj-2g9" firstAttribute="top" secondItem="AqK-bm-qkW" secondAttribute="bottom" constant="17" id="KFh-dc-SWb"/>
+                            <constraint firstItem="kzX-kB-7rg" firstAttribute="trailing" secondItem="9gg-x5-xX3" secondAttribute="trailing" constant="17" id="Mep-HX-ody"/>
+                            <constraint firstItem="cXG-Y9-Vdr" firstAttribute="top" secondItem="9gg-x5-xX3" secondAttribute="bottom" constant="17" id="Raz-BR-eXp"/>
+                            <constraint firstItem="AqK-bm-qkW" firstAttribute="leading" secondItem="kzX-kB-7rg" secondAttribute="leading" constant="17" id="Uu1-ph-sF3"/>
+                            <constraint firstItem="kzX-kB-7rg" firstAttribute="trailing" secondItem="cXG-Y9-Vdr" secondAttribute="trailing" constant="17" id="VJY-Yy-bmp"/>
+                            <constraint firstItem="xEK-SG-xDt" firstAttribute="leading" secondItem="kzX-kB-7rg" secondAttribute="leading" constant="17" id="fyi-f3-m2f"/>
+                            <constraint firstItem="kzX-kB-7rg" firstAttribute="trailing" secondItem="2AK-mG-uzA" secondAttribute="trailing" constant="17" id="jV4-Ss-Dm2"/>
+                            <constraint firstItem="AqK-bm-qkW" firstAttribute="top" secondItem="kzX-kB-7rg" secondAttribute="top" constant="223" id="kSF-Ef-bzj"/>
+                            <constraint firstItem="JtQ-wj-2g9" firstAttribute="leading" secondItem="kzX-kB-7rg" secondAttribute="leading" constant="17" id="vLd-os-28c"/>
+                            <constraint firstItem="xEK-SG-xDt" firstAttribute="top" secondItem="JtQ-wj-2g9" secondAttribute="bottom" constant="17" id="yff-zW-tfR"/>
+                            <constraint firstItem="2AK-mG-uzA" firstAttribute="top" secondItem="cXG-Y9-Vdr" secondAttribute="bottom" constant="17" id="zxt-UG-3sn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kzX-kB-7rg"/>
                     </view>
                     <navigationItem key="navigationItem" id="dfs-TS-eCl"/>
@@ -795,18 +782,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="077-512" width="512" height="512"/>
-        <image name="45-512" width="512" height="512"/>
         <image name="Checkbox" width="120" height="120"/>
+        <image name="Exercises Button" width="656" height="560"/>
         <image name="GO BACK button" width="1260" height="224"/>
         <image name="LOGIN button" width="1260" height="224"/>
         <image name="Login" width="375" height="812"/>
+        <image name="Medication Button" width="656" height="560"/>
+        <image name="Menu" width="1500" height="3248"/>
+        <image name="Profile Button" width="656" height="560"/>
         <image name="SIGN UP button" width="1260" height="224"/>
+        <image name="Schedule Button" width="656" height="560"/>
+        <image name="Settings Button" width="656" height="560"/>
         <image name="Sign up" width="375" height="812"/>
+        <image name="Statistics Button" width="656" height="560"/>
         <image name="UnCheckbox" width="120" height="120"/>
-        <image name="analytics (2)" width="512" height="512"/>
-        <image name="bicycle" width="512" height="512"/>
-        <image name="pills-1" width="512" height="512"/>
-        <image name="settings" width="512" height="512"/>
     </resources>
 </document>
