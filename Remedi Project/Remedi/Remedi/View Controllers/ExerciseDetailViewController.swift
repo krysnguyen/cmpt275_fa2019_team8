@@ -7,20 +7,37 @@
 //
 
 import UIKit
+import WebKit
 
 class ExerciseDetailViewController: UIViewController {
 
     
     @IBOutlet weak var lbl: UILabel!
-    @IBOutlet weak var img: UIImageView!
+    
+    @IBOutlet weak var ExerciseWebView: WKWebView!
     
     var image = UIImage()
     var name = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbl.text = "Please do this exercise"
-        img.image = image
+        lbl.text = "Please Follow The Video"
+        if name=="Arms"{
+            let url = URL(string: "https://youtu.be/Wa8Fk8TaXPk")
+            let request = URLRequest(url: url!)
+            ExerciseWebView.load(request)
+        }
+        else if name=="Legs"{
+            let url = URL(string: "https://youtu.be/8BcPHWGQO44")
+            let request = URLRequest(url: url!)
+            ExerciseWebView.load(request)
+        }
+        else if name=="Balance"{
+            let url = URL(string: "https://youtu.be/mQLzNf8VOIc")
+            let request = URLRequest(url: url!)
+            ExerciseWebView.load(request)
+        }
+        //img.image = image
         // Do any additional setup after loading the view.
     }
     

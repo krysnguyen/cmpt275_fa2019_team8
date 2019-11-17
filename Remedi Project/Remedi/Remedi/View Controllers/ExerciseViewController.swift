@@ -10,18 +10,23 @@ import UIKit
 
 class ExerciseViewController: UIViewController {
     
-    var name = ["arms","legs","balance"]
+    var name = ["Arms","Legs","Balance"]
     @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var ExerciseListLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE, MMMM, dd, yyyy"
+        let str = formatter.string(from: Date())
+        ExerciseListLabel.text = str
     }
 }
 extension ExerciseViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        return 200
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
