@@ -36,7 +36,12 @@ class ViewController: UIViewController {
         //Utilities.styleHollowButton(loginButton)
     }
 
-
+    @IBAction func signupTapped(_ sender: Any) {
+        let signupViewController = self.storyboard?.instantiateViewController(identifier: "SignupVC") as? SignUpViewController
+        self.view.window?.rootViewController = signupViewController
+        self.view.window?.makeKeyAndVisible()
+    }
+    
     /*
     // MARK: - Navigation
 

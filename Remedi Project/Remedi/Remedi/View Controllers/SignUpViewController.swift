@@ -23,6 +23,12 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
+    @IBAction func gobackTapped(_ sender: Any) {
+        let loginViewController = self.storyboard?.instantiateViewController(identifier: "LoginVC") as? ViewController
+        self.view.window?.rootViewController = loginViewController
+        self.view.window?.makeKeyAndVisible()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpElements()
@@ -33,10 +39,10 @@ class SignUpViewController: UIViewController {
         errorLabel.alpha = 0;
         //Style all the elements
         //All the styling are in the Utilities folder that can be used to achieve this
-        Utilities.styleTextField(healthCareTextField)
-        Utilities.styleTextField(emailTextField)
-        Utilities.styleTextField(passwordTextField)
-        Utilities.styleFilledButton(signUpButton)
+        //Utilities.styleTextField(healthCareTextField)
+        //Utilities.styleTextField(emailTextField)
+        //Utilities.styleTextField(passwordTextField)
+        //Utilities.styleFilledButton(signUpButton)
         
     }
     //Create the fields and validate that the data is correct. If everything is correct, this method return nil. Otherwise, it returns the error message as the string
