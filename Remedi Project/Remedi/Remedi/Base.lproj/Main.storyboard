@@ -472,7 +472,7 @@
         <!--Exercise View Controller-->
         <scene sceneID="A7I-bC-pff">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="7Rb-5n-eps" customClass="ExerciseViewController" customModule="Remedi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExerciseVC" modalPresentationStyle="fullScreen" id="7Rb-5n-eps" customClass="ExerciseViewController" customModule="Remedi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bqk-5N-t69">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -579,6 +579,7 @@
                                 <state key="normal" title="Button" image="Back tab"/>
                                 <connections>
                                     <action selector="backtabTapped:" destination="7Rb-5n-eps" eventType="touchUpInside" id="4Zq-XX-otc"/>
+                                    <action selector="backtabTapped:" destination="Hwl-xg-pNI" eventType="touchUpInside" id="gal-zR-vPi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpT-R0-HmB">
@@ -1115,7 +1116,6 @@
         <image name="checkBoxYes" width="40" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="piS-0q-d6s"/>
         <segue reference="18d-Iu-d0v"/>
         <segue reference="YEF-ad-bTK"/>
     </inferredMetricsTieBreakers>
