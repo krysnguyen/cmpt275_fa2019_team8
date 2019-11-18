@@ -23,6 +23,10 @@
 		F7618259236807E90050FCA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7618258236807E90050FCA8 /* Utilities.swift */; };
 		F761825C236839EC0050FCA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F761825B236839EC0050FCA8 /* GoogleService-Info.plist */; };
 		F77E32BF236E5A0E00459B4D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E32BE236E5A0E00459B4D /* ProfileViewController.swift */; };
+		F7A36869237EBE19000D4FB2 /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A36868237EBE19000D4FB2 /* MedicationViewController.swift */; };
+		F7A3686B237F932A000D4FB2 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3686A237F932A000D4FB2 /* MedicationDetailViewController.swift */; };
+		F7A3686D237F9A00000D4FB2 /* MedicationDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3686C237F9A00000D4FB2 /* MedicationDetailTableViewCell.swift */; };
+		F7A368752382649F000D4FB2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A368742382649F000D4FB2 /* Medicine.swift */; };
 		F7BC706F236850390078E9DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC706E236850390078E9DB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +50,10 @@
 		F7618258236807E90050FCA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F761825B236839EC0050FCA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F77E32BE236E5A0E00459B4D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		F7A36868237EBE19000D4FB2 /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
+		F7A3686A237F932A000D4FB2 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		F7A3686C237F9A00000D4FB2 /* MedicationDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F7A368742382649F000D4FB2 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
 		F7BC706E236850390078E9DB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +72,7 @@
 		1E225EA04AF00475071AD613 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				F761823B2367F4820050FCA8 /* Products */,
 				79AE35AFCD6818BAECDC601E /* Pods-Remedi.debug.xcconfig */,
 				70A52CCCA3D7A8152FD228C1 /* Pods-Remedi.release.xcconfig */,
 			);
@@ -82,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				F761823C2367F4820050FCA8 /* Remedi */,
-				F761823B2367F4820050FCA8 /* Products */,
 				1E225EA04AF00475071AD613 /* Pods */,
 				F6EAB59AABDA09C805923B47 /* Frameworks */,
 			);
@@ -94,11 +102,13 @@
 				F761823A2367F4820050FCA8 /* Remedi.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F761823C2367F4820050FCA8 /* Remedi */ = {
 			isa = PBXGroup;
 			children = (
+				F7A36871238262CD000D4FB2 /* Model */,
 				F761825A236807FB0050FCA8 /* Helpes */,
 				F76182572367F4E60050FCA8 /* View Controllers */,
 				F761823D2367F4820050FCA8 /* AppDelegate.swift */,
@@ -122,6 +132,9 @@
 				6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */,
 				6AD8A48C237B6F8F0013AB2B /* ExerciseTableViewCell.swift */,
 				6A40A75E237D528800751D63 /* ExerciseDetailViewController.swift */,
+				F7A36868237EBE19000D4FB2 /* MedicationViewController.swift */,
+				F7A3686A237F932A000D4FB2 /* MedicationDetailViewController.swift */,
+				F7A3686C237F9A00000D4FB2 /* MedicationDetailTableViewCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -133,6 +146,14 @@
 				F7BC706E236850390078E9DB /* Constants.swift */,
 			);
 			path = Helpes;
+			sourceTree = "<group>";
+		};
+		F7A36871238262CD000D4FB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7A368742382649F000D4FB2 /* Medicine.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,13 +273,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76182422367F4820050FCA8 /* ViewController.swift in Sources */,
+				F7A368752382649F000D4FB2 /* Medicine.swift in Sources */,
 				F761823E2367F4820050FCA8 /* AppDelegate.swift in Sources */,
+				F7A3686B237F932A000D4FB2 /* MedicationDetailViewController.swift in Sources */,
 				6AD8A48D237B6F8F0013AB2B /* ExerciseTableViewCell.swift in Sources */,
 				F77E32BF236E5A0E00459B4D /* ProfileViewController.swift in Sources */,
 				F7618259236807E90050FCA8 /* Utilities.swift in Sources */,
 				F76182522367F4C60050FCA8 /* SignUpViewController.swift in Sources */,
 				F76182542367F4D20050FCA8 /* LogInViewController.swift in Sources */,
+				F7A3686D237F9A00000D4FB2 /* MedicationDetailTableViewCell.swift in Sources */,
 				6AD8A48B237B6D320013AB2B /* ExerciseViewController.swift in Sources */,
+				F7A36869237EBE19000D4FB2 /* MedicationViewController.swift in Sources */,
 				F76182402367F4820050FCA8 /* SceneDelegate.swift in Sources */,
 				F76182562367F4E10050FCA8 /* HomeViewController.swift in Sources */,
 				F7BC706F236850390078E9DB /* Constants.swift in Sources */,

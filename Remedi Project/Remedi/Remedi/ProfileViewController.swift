@@ -47,7 +47,7 @@ class ProfileViewController: UIViewController {
             if let d = snapshot?.data() {
                 self.firstName = d["firstname"] as! String
                 self.lastName = d["lastname"] as! String
-                self.patientMednumLabel.text = d["healthNumber"] as! String
+                self.patientMednumLabel.text = d["healthID"] as! String
                 self.patientPhoneLabel.text = d["phoneNumber"] as! String
                 self.patientEmailLabel.text = self.userEmail
                 self.patientHomeAddressLabel.text = d["homeAddress"] as! String

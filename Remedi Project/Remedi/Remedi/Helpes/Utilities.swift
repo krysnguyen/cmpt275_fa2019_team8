@@ -52,5 +52,35 @@ class Utilities {
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}")
         return passwordTest.evaluate(with: password)
     }
-    
+    static func rectangle8(_ label:UILabel) {
+        let view = label
+        view.center.x = view.center.x
+        view.center.y = view.center.y
+        view.frame = CGRect(x: 0, y: 0, width: 340, height: 120)
+        view.backgroundColor = .white
+        view.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+        view.layer.cornerRadius = 20
+        view.layer.borderWidth = 2
+        view.layer.borderColor = UIColor(red: 0.561, green: 0.694, blue: 0.8, alpha: 1).cgColor
+    }
+    static func rectangleBig(_ label:UILabel) {
+        let view = label
+        view.center.x = view.center.x
+        view.center.y = view.center.y
+        view.frame = CGRect(x: 0, y: 0, width: 316, height: 400)
+        view.backgroundColor = .white
+        view.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+        view.layer.cornerRadius = 20
+        view.layer.borderWidth = 2
+        view.layer.borderColor = UIColor(red: 0.561, green: 0.694, blue: 0.8, alpha: 1).cgColor
+    }
+    static func presInfor(_ label:UILabel){
+        let view = label
+        view.frame = CGRect(x: 0, y: 0, width: 246, height: 41)
+        view.backgroundColor = .white
+        view.textColor = UIColor(red: 0.459, green: 0.612, blue: 0.788, alpha: 1)
+        view.font = UIFont(name: "Sarabun-SemiBold", size: 16)
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineHeightMultiple = 1.15
+    }
 }

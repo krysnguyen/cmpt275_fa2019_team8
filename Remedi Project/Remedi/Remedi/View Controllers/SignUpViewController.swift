@@ -131,18 +131,15 @@ class SignUpViewController: UIViewController {
     func checkUsername(field: String, completion: @escaping (Bool) -> Void) {
         let db = Firestore.firestore()
         let collectionRef = db.collection("users")
-        print("1")
-        collectionRef.whereField("healthNumber", isEqualTo: field).getDocuments { (snapshot, err) in
+        collectionRef.whereField("healthID", isEqualTo: field).getDocuments { (snapshot, err) in
             if let err = err {
                 print("Error getting document: \(err)")
             } else if (snapshot?.isEmpty)! {
                 completion(false)
-                print("2")
             } else {
                 for document in (snapshot?.documents)! {
-                    if document.data()["healthNumber"] != nil {
+                    if document.data()["healthID"] != nil {
                         completion(true)
-                        print("3")
                     }
                 }
             }
