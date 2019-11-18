@@ -34,6 +34,11 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var physEmailLabel: UILabel!
     @IBOutlet weak var physHomeAddLabel: UILabel!
     
+    @IBAction func backtabTapped(_ sender: Any) {
+        let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        self.view.window?.rootViewController = homeViewController
+        self.view.window?.makeKeyAndVisible()}
+    
     //Function using to retrieve information from Firebase
     override func viewDidLoad() {
         super.viewDidLoad()

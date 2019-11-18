@@ -34,14 +34,19 @@ class MedicationViewController: UIViewController {
                 for document in querySnapshot!.documents{
                     self.medMap = document.data()
                     self.medArray.append(document.documentID)
-                    let doseNotes = self.medMap["doseNotes"] as! String
-                    let timePref = self.medMap["timePref"] as! String
-                    let medNotes = self.medMap["medNotes"] as! String
-                    let doseSize = self.medMap["doseSize"] as! String
-                    let instructions = self.medMap["instructions"] as! String
-                    let dayMedTaken = self.medMap["dayMedTaken"] as! [String]
-                    let medicine = Medicine(doseSizeString: doseSize, doseNotesString: doseNotes, timePrefString: timePref, medNotesString: medNotes, instructionsString: instructions, dayMedTakenString: dayMedTaken)
-                    self.medicines.append(medicine)
+                    do{
+                        let doseNotes = self.medMap["doseNotes"] as! String
+                        let timePref = self.medMap["timePref"] as! String
+                        let medNotes = self.medMap["medNotes"] as! String
+                        let doseSize = self.medMap["doseSize"] as! String
+                        let instructions = self.medMap["instructions"] as! String
+                        let dayMedTaken = self.medMap["dayMedTaken"] as! [String]
+                        let medicine = Medicine(doseSizeString: doseSize, doseNotesString: doseNotes, timePrefString: timePref, medNotesString: medNotes, instructionsString: instructions, dayMedTakenString: dayMedTaken)
+                        self.medicines.append(medicine)
+                    }
+                    catch _ {
+                        print("Error")
+                    }
                 }
                 self.medSize = querySnapshot!.count
                 self.medicationTableView.reloadData()
