@@ -14,6 +14,14 @@ class ExerciseViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var ExerciseListLabel: UILabel!
+    
+    
+    @IBAction func backtabTapped(_ sender: Any) {
+        let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+         self.view.window?.rootViewController = homeViewController
+         self.view.window?.makeKeyAndVisible()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
