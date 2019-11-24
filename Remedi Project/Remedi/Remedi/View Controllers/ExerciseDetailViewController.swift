@@ -16,27 +16,44 @@ class ExerciseDetailViewController: UIViewController {
 
     @IBOutlet weak var ExerciseWebView: WKWebView!
     
-    var image = UIImage()
-    var name = ""
+    var image = ""
+    var video = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         lbl.text = "Please Follow The Video"
-        if name=="Arms"{
+        print(image)
+        if image=="Arms"{
                   let url = URL(string: "https://youtu.be/Wa8Fk8TaXPk")
                   let request = URLRequest(url: url!)
                   ExerciseWebView.load(request)
               }
-              else if name=="Legs"{
+              else if image=="Legs"{
                   let url = URL(string: "https://youtu.be/8BcPHWGQO44")
                   let request = URLRequest(url: url!)
                   ExerciseWebView.load(request)
               }
-              else if name=="Balance"{
+              else if image=="Balance"{
                   let url = URL(string: "https://youtu.be/mQLzNf8VOIc")
                   let request = URLRequest(url: url!)
                   ExerciseWebView.load(request)
               }
+                else if image=="Calf raise"{
+                    let url = URL(string: "https://youtu.be/mQLzNf8VOIc")
+                    let request = URLRequest(url: url!)
+                    ExerciseWebView.load(request)
+                }
+                else if image=="Hand"{
+                    let url = URL(string: "https://youtu.be/mQLzNf8VOIc")
+                    let request = URLRequest(url: url!)
+                    ExerciseWebView.load(request)
+                }
+                else if image=="Bicep curl"{
+                    let url = URL(string: "https://youtu.be/mQLzNf8VOIc")
+                    let request = URLRequest(url: url!)
+                    ExerciseWebView.load(request)
+                }
+            
         
         //img.image = image
         // Do any additional setup after loading the view.

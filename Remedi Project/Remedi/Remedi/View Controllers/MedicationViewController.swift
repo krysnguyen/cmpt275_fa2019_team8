@@ -22,6 +22,10 @@ class MedicationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        let yourBackImage = UIImage(named: "Back tab")
+//        self.navigationController?.navigationBar.backIndicatorImage = yourBackImage
+//        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = yourBackImage
+//        self.navigationController?.navigationBar.backItem?.title = "Custom"
         setUpDate()
         loadData()
     }
@@ -98,6 +102,7 @@ extension MedicationViewController: UITableViewDelegate, UITableViewDataSource{
         }
         else{
             cell?.chkButton.isSelected = false
+            print("no")
         }
         cell?.rectangleImage.image = UIImage(named: "Rectangle 8")
         return cell!
@@ -105,8 +110,6 @@ extension MedicationViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "MedicationDetailViewController") as? MedicationDetailViewController
-//        vc?.image = UIImage(named: name[indexPath.row])!
-//        vc?.name = name[indexPath.row]
         vc?.medArray = medArray[indexPath.row]
         vc?.doseSize = medicines[indexPath.row].doseSize
         vc?.medNotes = medicines[indexPath.row].medNotes

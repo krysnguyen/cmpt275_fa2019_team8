@@ -15,6 +15,7 @@
 		F72A59762382C8270013DB0D /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A59742382C8270013DB0D /* MedicationDetailViewController.swift */; };
 		F72A59782382C82E0013DB0D /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A59772382C82E0013DB0D /* MedicationViewController.swift */; };
 		F72A597B2382C9BA0013DB0D /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A597A2382C9BA0013DB0D /* Medicine.swift */; };
+		F72A597D238341AF0013DB0D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A597C238341AF0013DB0D /* Exercise.swift */; };
 		F761823E2367F4820050FCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761823D2367F4820050FCA8 /* AppDelegate.swift */; };
 		F76182402367F4820050FCA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761823F2367F4820050FCA8 /* SceneDelegate.swift */; };
 		F76182422367F4820050FCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76182412367F4820050FCA8 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		F72A59742382C8270013DB0D /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
 		F72A59772382C82E0013DB0D /* MedicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
 		F72A597A2382C9BA0013DB0D /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		F72A597C238341AF0013DB0D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		F761823A2367F4820050FCA8 /* Remedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F761823D2367F4820050FCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F761823F2367F4820050FCA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F72A597A2382C9BA0013DB0D /* Medicine.swift */,
+				F72A597C238341AF0013DB0D /* Exercise.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,9 +140,9 @@
 				F76182512367F4C60050FCA8 /* SignUpViewController.swift */,
 				F77E32BE236E5A0E00459B4D /* ProfileViewController.swift */,
 				F72A59772382C82E0013DB0D /* MedicationViewController.swift */,
-				6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */,
 				F72A59732382C8260013DB0D /* MedicationDetailTableViewCell.swift */,
 				F72A59742382C8270013DB0D /* MedicationDetailViewController.swift */,
+				6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */,
 				6AD8A48C237B6F8F0013AB2B /* ExerciseTableViewCell.swift */,
 				6A40A75E237D528800751D63 /* ExerciseDetailViewController.swift */,
 			);
@@ -282,6 +285,7 @@
 				F76182522367F4C60050FCA8 /* SignUpViewController.swift in Sources */,
 				F76182542367F4D20050FCA8 /* LogInViewController.swift in Sources */,
 				6AD8A48B237B6D320013AB2B /* ExerciseViewController.swift in Sources */,
+				F72A597D238341AF0013DB0D /* Exercise.swift in Sources */,
 				F76182402367F4820050FCA8 /* SceneDelegate.swift in Sources */,
 				F76182562367F4E10050FCA8 /* HomeViewController.swift in Sources */,
 				F72A59782382C82E0013DB0D /* MedicationViewController.swift in Sources */,
