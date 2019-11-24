@@ -58,7 +58,10 @@ class ExerciseDetailViewController: UIViewController {
         //img.image = image
         // Do any additional setup after loading the view.
     }
-    
+    @IBAction func backtabTapped(_ sender: Any) {
+        let exerciseViewController = self.storyboard?.instantiateViewController(identifier: "ExerciseVC") as? ExerciseViewController
+        self.view.window?.rootViewController = exerciseViewController
+        self.view.window?.makeKeyAndVisible()}
     
     @IBAction func checkBoxTapped(_ sender: UIButton) {
         
