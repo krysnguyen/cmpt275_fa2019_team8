@@ -26,7 +26,17 @@ class NextScheduleViewController: UIViewController, UITableViewDelegate, UITable
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+           let vc = storyboard?.instantiateViewController(withIdentifier: "NextScheduleDetailViewController") as? NextScheduleDetailViewController
+           
+           vc?.image = UIImage(named: name[indexPath.row])!
+           vc?.name = name[indexPath.row]
+           //self.navigationController?.pushViewController(vc!, animated: true)
+           self.view.window?.rootViewController = vc
+           self.view.window?.makeKeyAndVisible()
+       }
+    
     @IBOutlet weak var DateLabel: UILabel!
         
     override func viewDidLoad() {

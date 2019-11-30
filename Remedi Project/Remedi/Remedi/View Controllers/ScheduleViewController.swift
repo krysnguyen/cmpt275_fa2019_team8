@@ -132,11 +132,11 @@ class ScheduleViewController: UIViewController, UICollectionViewDelegate, UIColl
         }
         switch Direction{
                case 0:
-                   cell.DateLabel.text="\(indexPath.row+1-NumberOfEmptyBox)"
-               case 1...:
-                    cell.DateLabel.text="\(indexPath.row+1-NextNumberOfEmptyBox)"
+                   cell.DateLabel.text="\(indexPath.row + 1 - NumberOfEmptyBox)"
+               case 1:
+                    cell.DateLabel.text="\(indexPath.row + 1 - NextNumberOfEmptyBox)"
                case -1:
-                    cell.DateLabel.text="\(indexPath.row+1-PreviousNumberOfEmptyBox)"
+                    cell.DateLabel.text="\(indexPath.row + 1 - PreviousNumberOfEmptyBox)"
                default:
                     fatalError()
            }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6931FAB5E57CC5E862D4E451 /* Pods_Remedi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0F0C2E7A52261F2DDC368C /* Pods_Remedi.framework */; };
 		6A40A75F237D528800751D63 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40A75E237D528800751D63 /* ExerciseDetailViewController.swift */; };
+		6A806E3023931F4300C07CC8 /* NextScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A806E2F23931F4200C07CC8 /* NextScheduleDetailViewController.swift */; };
 		6AD8A48B237B6D320013AB2B /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */; };
 		6AD8A48D237B6F8F0013AB2B /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8A48C237B6F8F0013AB2B /* ExerciseTableViewCell.swift */; };
 		EB44DB58238E0E3F0058A31D /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44DB57238E0E3F0058A31D /* ScheduleViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		6A40A75E237D528800751D63 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		6A806E2F23931F4200C07CC8 /* NextScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		6AD8A48C237B6F8F0013AB2B /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
 		70A52CCCA3D7A8152FD228C1 /* Pods-Remedi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remedi.release.xcconfig"; path = "Target Support Files/Pods-Remedi/Pods-Remedi.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +149,6 @@
 				F76182512367F4C60050FCA8 /* SignUpViewController.swift */,
 				F77E32BE236E5A0E00459B4D /* ProfileViewController.swift */,
 				F72A59772382C82E0013DB0D /* MedicationViewController.swift */,
-				6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */,
 				F72A59732382C8260013DB0D /* MedicationDetailTableViewCell.swift */,
 				F72A59742382C8270013DB0D /* MedicationDetailViewController.swift */,
 				6AD8A48C237B6F8F0013AB2B /* ExerciseTableViewCell.swift */,
@@ -155,8 +156,10 @@
 				EB44DB57238E0E3F0058A31D /* ScheduleViewController.swift */,
 				EB44DB59238E0F6B0058A31D /* DateCollectionViewCell.swift */,
 				EB44DB5B238E101F0058A31D /* CalendarVars.swift */,
+				6AD8A48A237B6D320013AB2B /* ExerciseViewController.swift */,
 				EB82B3162391D85200DEFD4B /* NextScheduleViewController.swift */,
 				EBC7C3D82391F326003A476F /* NextScheduleTableViewCell.swift */,
+				6A806E2F23931F4200C07CC8 /* NextScheduleDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				F72A59762382C8270013DB0D /* MedicationDetailViewController.swift in Sources */,
 				F761823E2367F4820050FCA8 /* AppDelegate.swift in Sources */,
 				6AD8A48D237B6F8F0013AB2B /* ExerciseTableViewCell.swift in Sources */,
+				6A806E3023931F4300C07CC8 /* NextScheduleDetailViewController.swift in Sources */,
 				F77E32BF236E5A0E00459B4D /* ProfileViewController.swift in Sources */,
 				F7618259236807E90050FCA8 /* Utilities.swift in Sources */,
 				F72A597B2382C9BA0013DB0D /* Medicine.swift in Sources */,
