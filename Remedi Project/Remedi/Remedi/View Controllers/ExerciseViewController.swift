@@ -50,8 +50,11 @@ extension ExerciseViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "ExerciseDetailViewController") as? ExerciseDetailViewController
+        
         vc?.image = UIImage(named: name[indexPath.row])!
         vc?.name = name[indexPath.row]
-        self.navigationController?.pushViewController(vc!, animated: true)
+        //self.navigationController?.pushViewController(vc!, animated: true)
+        self.view.window?.rootViewController = vc
+        self.view.window?.makeKeyAndVisible()
     }
 }
