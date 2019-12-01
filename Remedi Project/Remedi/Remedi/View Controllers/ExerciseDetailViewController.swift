@@ -11,17 +11,19 @@ import WebKit
 
 class ExerciseDetailViewController: UIViewController {
 
+    @IBOutlet weak var exerciseName: UILabel!
     
-    @IBOutlet weak var lbl: UILabel!
-
+    @IBOutlet weak var exerciseDescription: UILabel!
+    
+    @IBOutlet weak var prescriptionDescription: UILabel!
+    
     @IBOutlet weak var ExerciseWebView: WKWebView!
     
     var image = UIImage()
     var name = ""
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbl.text = "Please Follow The Video"
         if name=="Arms"{
                   let url = URL(string: "https://youtu.be/Wa8Fk8TaXPk")
                   let request = URLRequest(url: url!)

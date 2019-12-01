@@ -13,15 +13,13 @@ import WebKit
 class NextScheduleDetailViewController: UIViewController {
 
     @IBOutlet var ExerciseWebView: WKWebView!
-   
-    @IBOutlet var lbl: UILabel!
+
     var image = UIImage()
     var name = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lbl.text = "Please Follow The Video"
         if name=="Arms"{
                   let url = URL(string: "https://youtu.be/Wa8Fk8TaXPk")
                   let request = URLRequest(url: url!)
