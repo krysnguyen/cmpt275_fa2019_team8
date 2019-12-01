@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tbM-VB-zBa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -344,14 +344,6 @@
                                 <state key="normal" title="Button" image="Medication Button"/>
                                 <connections>
                                     <segue destination="gCR-IA-60G" kind="show" id="cGJ-P7-eRs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXC-UC-whg">
-                                <rect key="frame" x="0.0" y="62" width="91" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Back tab"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="YEF-ad-bTK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -798,6 +790,16 @@
                                     <action selector="backtabTapped:" destination="fv2-qR-jD8" eventType="touchUpInside" id="vXF-lr-Vtk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mx-CS-UNj">
+                                <rect key="frame" x="33" y="717" width="348" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="uc5-mo-7Ts"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="LOGOUT button"/>
+                                <connections>
+                                    <action selector="logoutTapped:" destination="fv2-qR-jD8" eventType="touchUpInside" id="W1z-rc-msk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.46628457307815552" green="0.61345243453979492" blue="0.9070393443107605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -808,8 +810,11 @@
                             <constraint firstItem="cy0-fM-OtJ" firstAttribute="top" secondItem="0A7-4a-3EV" secondAttribute="top" constant="180" id="JWT-kH-Ygj"/>
                             <constraint firstItem="3nl-Ub-Ap2" firstAttribute="leading" secondItem="li9-MN-BDF" secondAttribute="leading" id="NOd-cV-EKg"/>
                             <constraint firstItem="Oax-tZ-8Db" firstAttribute="top" secondItem="hFb-gS-jGJ" secondAttribute="bottom" constant="100" id="OsC-3a-mVg"/>
+                            <constraint firstItem="0A7-4a-3EV" firstAttribute="bottom" secondItem="5mx-CS-UNj" secondAttribute="bottom" constant="83" id="aZk-oG-alO"/>
                             <constraint firstItem="cy0-fM-OtJ" firstAttribute="leading" secondItem="0A7-4a-3EV" secondAttribute="leading" constant="32" id="bRc-Fn-sRX"/>
                             <constraint firstItem="ont-a5-FwL" firstAttribute="leading" secondItem="0A7-4a-3EV" secondAttribute="leading" constant="32" id="bzU-HV-5my"/>
+                            <constraint firstAttribute="trailing" secondItem="5mx-CS-UNj" secondAttribute="trailing" constant="33" id="cJd-6a-L69"/>
+                            <constraint firstItem="5mx-CS-UNj" firstAttribute="leading" secondItem="li9-MN-BDF" secondAttribute="leading" constant="33" id="fvC-q5-j6l"/>
                             <constraint firstItem="Oax-tZ-8Db" firstAttribute="leading" secondItem="ont-a5-FwL" secondAttribute="trailing" constant="14" id="k4f-UT-ZEQ"/>
                             <constraint firstItem="hFb-gS-jGJ" firstAttribute="leading" secondItem="cy0-fM-OtJ" secondAttribute="trailing" constant="14" id="oe3-54-BTQ"/>
                             <constraint firstItem="3nl-Ub-Ap2" firstAttribute="top" secondItem="0A7-4a-3EV" secondAttribute="top" constant="27" id="pAH-45-xzj"/>
@@ -1353,6 +1358,7 @@
         <image name="Exercises Button" width="656" height="560"/>
         <image name="GO BACK button" width="1260" height="224"/>
         <image name="LOGIN button" width="1260" height="224"/>
+        <image name="LOGOUT button" width="1264" height="224"/>
         <image name="Login" width="375" height="812"/>
         <image name="Medication Button" width="656" height="560"/>
         <image name="Menu" width="1500" height="3248"/>
@@ -1374,9 +1380,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="F5Q-s2-Gm1"/>
-        <segue reference="Lxm-Jw-bKg"/>
+        <segue reference="pTP-br-nEx"/>
         <segue reference="18d-Iu-d0v"/>
         <segue reference="kGD-cr-goh"/>
-        <segue reference="YEF-ad-bTK"/>
     </inferredMetricsTieBreakers>
 </document>

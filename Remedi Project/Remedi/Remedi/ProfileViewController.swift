@@ -39,6 +39,19 @@ class ProfileViewController: UIViewController {
         self.view.window?.rootViewController = homeViewController
         self.view.window?.makeKeyAndVisible()}
     
+    @IBAction func logoutTapped(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        } catch let signOutError as NSError {
+            print ("Error logging out: %@", signOutError)
+        }
+        
+        let loginViewController = self.storyboard?.instantiateViewController(identifier: "LoginVC") as? ViewController
+        self.view.window?.rootViewController = loginViewController
+        self.view.window?.makeKeyAndVisible()
+    }
+    
+    
     //Function using to retrieve information from Firebase
     override func viewDidLoad() {
         super.viewDidLoad()
