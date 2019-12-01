@@ -22,13 +22,16 @@ class MedicationDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        Utilities.rectangle8(medDetailLabel)
-        presInforRectangle.image = UIImage(named: "Rectangle_big")
+        //presInforRectangle.image = UIImage(named: "Rectangle_big")
         medicationLabel.text = "DRUG NAME: \(medArray) \(doseSize)"
         medicationLabel2.text = "Instructions: \(instruction) \nDoctor note: \(medNotes)"
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backtabTapped(_ sender: Any) {
+        let medicationViewController = self.storyboard?.instantiateViewController(identifier: "MedicationVC") as? MedicationViewController
+        self.view.window?.rootViewController = medicationViewController
+        self.view.window?.makeKeyAndVisible()}
     
      @IBAction func onClickDone(_ sender: UIButton) {
         let db = Firestore.firestore()
