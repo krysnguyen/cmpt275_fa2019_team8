@@ -33,8 +33,9 @@ class MedicationViewController: UIViewController {
     func loadData(){
         let db = Firestore.firestore()
         db.collection("users").document(userEmail).collection("medications").getDocuments { (querySnapshot, err) in
-            if let err = err{
+            if (querySnapshot!.documents.count == 0){
                 print("error getting documents")
+                return
             }else{
                 for document in querySnapshot!.documents{
                     self.medMap = document.data()

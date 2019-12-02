@@ -14,13 +14,20 @@ class ExerciseDetailViewController: UIViewController {
     
     @IBOutlet weak var lbl: UILabel!
 
+    @IBOutlet weak var exerciseLabel1: UILabel!
+    @IBOutlet weak var exerciseLabel2: UILabel!
     @IBOutlet weak var ExerciseWebView: WKWebView!
     
     var image = ""
     var video = ""
-
+    var exArray = ""
+    var exNotes = ""
+    var exReps = ""
+    var exSets = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        exerciseLabel1.text = "EXERCISE NAME: \(exArray)"
+        exerciseLabel2.text = "Number of reps: \(exReps) \nNumber of sets: \(exSets) \nInstructions: Please follow the video above \nDoctor note: \(exNotes)"
         if image=="Arms"{
                   let url = URL(string: "https://youtu.be/Wa8Fk8TaXPk")
                   let request = URLRequest(url: url!)

@@ -12,7 +12,7 @@ import FirebaseFirestore
 import FirebaseAuth
 
 //Class to control the main storyboard, it will connect with Firebase for retrieving data
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     var firestore: Firestore!
     var userID = Auth.auth().currentUser!.uid
     var userEmail = Auth.auth().currentUser!.email!
@@ -22,7 +22,7 @@ class ProfileViewController: UIViewController {
     var physFirstName = ""
     var physLastName = ""
     var physEmail = ""
-    
+    var image = UIImagePickerController()
     @IBOutlet weak var patientPicture: UIImageView!
     //These varialbes using to connect the Profile storyboard with Controller
     @IBOutlet weak var patientnameLabel: UILabel!
@@ -54,6 +54,41 @@ class ProfileViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var displayPatientPicture: UIImageView!
+//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+        guard let image = info[.originalImage] as? UIImage else {
+            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
+        }
+            //Save Image in Persistence
+        let imageData:NSData = image.jpegData(compressionQuality: 1)! as NSData
+        UserDefaults.standard.set(imageData, forKey: "savedImage")
+        let data = UserDefaults.standard.object(forKey: "savedImage") as! NSData
+        displayPatientPicture.image = UIImage(data: data as Data)
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func importFromLibrary(_ sender: Any) {
+        image.delegate = self
+        image.sourceType = UIImagePickerController.SourceType.photoLibrary
+        image.allowsEditing = false
+        
+        self.present(image, animated: true) {
+            // After it is complete
+        }
+    }
+    
+    @IBAction func importFromCamera(_ sender: Any) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera){
+            let myPickerController = UIImagePickerController()
+            myPickerController.delegate = self;
+            myPickerController.sourceType = .camera
+            myPickerController.allowsEditing = true
+            self.present(myPickerController, animated: true, completion: nil)
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -75,6 +110,11 @@ class ProfileViewController: UIViewController {
             self.patientName()
             self.physInfor()
         })
+        
+        let data = UserDefaults.standard.object(forKey: "savedImage") as? NSData
+        if data != nil {
+            displayPatientPicture.image = UIImage(data: data! as Data)
+        }
     }
     
     func patientName() {

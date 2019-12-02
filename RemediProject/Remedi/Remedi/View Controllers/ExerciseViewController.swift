@@ -33,8 +33,9 @@ class ExerciseViewController: UIViewController {
         var image = ""
         let db = Firestore.firestore()
         db.collection("users").document(userEmail).collection("exercises").getDocuments { (querySnapshot, err) in
-            if let err = err{
+            if (querySnapshot!.documents.count == 0){
                 print("error getting documents")
+                return
             }else{
                 for document in querySnapshot!.documents{
                     self.exMap = document.data()
@@ -60,7 +61,6 @@ class ExerciseViewController: UIViewController {
                         print("Error")
                     }
                 }
-                print(self.exArray)
                 self.exSize = querySnapshot!.count
                 self.exerciseTableView.reloadData()
             }
@@ -90,6 +90,10 @@ extension ExerciseViewController: UITableViewDelegate, UITableViewDataSource{
 //        vc?.name = name[indexPath.row]
         vc?.video = exercises[indexPath.row].video
         vc?.image = exercises[indexPath.row].exName
+        vc?.exArray = exArray[indexPath.row]
+        vc?.exNotes = exercises[indexPath.row].exNotes
+        vc?.exReps = exercises[indexPath.row].exReps
+        vc?.exSets = exercises[indexPath.row].exSets
         self.navigationController?.pushViewController(vc!, animated: true)
     }
 }
