@@ -81,6 +81,19 @@ extension ExerciseViewController: UITableViewDelegate, UITableViewDataSource{
         cell?.rectangleImage.image = UIImage(named: "Rectangle 8")
         cell?.lbl.text = exArray[indexPath.row]
         cell?.img.image = UIImage(named: exercises[indexPath.row].exName)
+        cell?.cellDelegate = self as! myProctocol1
+        cell?.index = indexPath
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd"
+        let datestr = "day" + formatter.string(from: Date())
+        if exercises[indexPath.row].dayExTaken.contains(datestr){
+            cell?.button5.isSelected = true
+//            print("yes")
+        }
+        else{
+            cell?.button5.isSelected = false
+//            print("no")
+        }
         return cell!
     }
     
@@ -95,5 +108,26 @@ extension ExerciseViewController: UITableViewDelegate, UITableViewDataSource{
         vc?.exReps = exercises[indexPath.row].exReps
         vc?.exSets = exercises[indexPath.row].exSets
         self.navigationController?.pushViewController(vc!, animated: true)
+    }
+}
+
+extension ExerciseViewController: myProctocol1{
+    func onClickCell(index: Int){
+        let db = Firestore.firestore()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd"
+        let datestr = "day" + formatter.string(from: Date())
+        let docData: [String: Any] = ["dayExTaken": [datestr]]
+        db.collection("users").document(userEmail).collection("exercises").document(exArray[index]).setData(docData, merge:true)
+        print(datestr)
+    }
+    func onUnClickCell(index: Int) {
+        let db = Firestore.firestore()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd"
+        let datestr = "day" + formatter.string(from: Date())
+        let docData: [String: Any] = ["dayExTaken": [datestr]]
+        db.collection("users").document(userEmail).collection("exercises").document(exArray[index]).setData(docData, merge:true)
+        print(datestr+"1")
     }
 }

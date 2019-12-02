@@ -104,7 +104,7 @@ class ReminderTableViewController: UITableViewController {
         {
             if (pill.status == 0)
             {
-                cell.backgroundColor = UIColor(named:"Color1")
+                cell.backgroundColor = UIColor(named:"Color2")
             }
             else
             {

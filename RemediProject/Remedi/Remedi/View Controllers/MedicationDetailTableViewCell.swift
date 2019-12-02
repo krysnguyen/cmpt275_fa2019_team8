@@ -9,6 +9,7 @@
 import UIKit
 protocol myProctocol {
     func onClickCell(index: Int)
+    func onUnClickCell(index: Int)
 }
 
 class MedicationDetailTableViewCell: UITableViewCell {
@@ -36,7 +37,8 @@ class MedicationDetailTableViewCell: UITableViewCell {
             cellDelegate?.onClickCell(index: (index?.row)!)
             sender.isSelected = true
         } else {
-            sender.isSelected = false
+//            cellDelegate?.onUnClickCell(index: (index?.row)!)
+            sender.isSelected = true
         }
     }
     

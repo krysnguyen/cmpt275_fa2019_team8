@@ -136,6 +136,14 @@ extension MedicationViewController: myProctocol{
         db.collection("users").document(userEmail).collection("medications").document(medArray[index]).setData(docData, merge:true)
         print(datestr)
     }
+    func onUnClickCell(index: Int) {
+        let db = Firestore.firestore()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd"
+        let datestr = "day" + formatter.string(from: Date())
+        let docData: [String: Any] = ["dayMedTaken": [datestr]]
+        db.collection("users").document(userEmail).collection("medications").document(medArray[index]).setData(docData, merge:true)
+    }
 }
     /*
     // MARK: - Navigation
